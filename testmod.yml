@@ -11,5 +11,5 @@
     #     msg: '{{ testout }}'
 
     - name: user data module test 
-      include_role:
+      import_role:
         name: test 
