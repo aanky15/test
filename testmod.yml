@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
     - name: run the new module
-      my_test2:
+      my_test:
         name: 'hello'
         new: true
       register: testout
@@ -11,4 +11,6 @@
         msg: '{{ testout }}'
 
     - name: user data module test 
-        userdata: name=Harshal age=34
+      userdata3: 
+        name: Harshal 
+        age: 34
