@@ -3,4 +3,4 @@
   tasks:
     - name: Run test role
       include_role:
-        name: test_role
+        name: test
