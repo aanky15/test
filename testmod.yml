@@ -10,7 +10,7 @@
       debug:
         msg: '{{ testout }}'
 
-    - name: user data module test 
-      userdata3: 
-        name: Harshal 
-        age: 34
+    # - name: user data module test 
+    #   userdata3: 
+    #     name: Harshal 
+    #     age: 34
