@@ -1,6 +1,11 @@
 - name: test my new module
   hosts: localhost
   tasks:
-    - name: Run test role
-      include_role:
-        name: test
+    - name: run the new module
+      my_test:
+        name: 'hello'
+        new: true
+      register: testout
+    - name: dump test output
+      debug:
+        msg: '{{ testout }}'

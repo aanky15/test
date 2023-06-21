@@ -1,7 +1,0 @@
----
-DD_AGENT_MAJOR_VERSION: '7'
-DD_API_KEY: ''
-DD_SITE: 'datadoghq.com'
-datadog_install_from_net: true
-#datadog_install_cmd: 'DD_AGENT_MAJOR_VERSION={{ DD_AGENT_MAJOR_VERSION }} DD_API_KEY={{ DD_API_KEY }} DD_SITE= {{ DD_SITE }} bash -c $(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script.sh)'
-expand_area: '/tmp/expand_area'
